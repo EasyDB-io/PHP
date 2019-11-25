@@ -7,18 +7,11 @@ This is the PHP client to connect with [easydb.io](https://easydb.io/) databases
 
 **Requires PHP 7.1**
 
-At present you just have to do a git clone of this repo and update your autoloader like so:
+Install with composer:
 
-`
-"autoload": {
-        "psr-4": {
-            "YourProject\\":"./src",
-            "EasyDB\\": "./path-to-easydb-directory"
-        }
-    },
-`
-
-But as soon as it's on packagist you can just do a composer install.
+```
+composer require easydb-io/easydb
+```
 
 # Usage
 
